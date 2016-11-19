@@ -1,0 +1,13 @@
+//  LOCALISATION STRINGS
+
+#define qtn_app_caption_string "Mobile Tracket"
+#define qtn_app_short_caption_string "MobTrac"
+
+#define qtn_nac_exit "Exit"
+#define qtn_nac_menu "Menu"
+#define qtn_nac_settings "Settings"
+
+
+#define qtn_nac_noughts_and_crosses "Mobile Tracker"
+
+// End of File

@@ -1,0 +1,156 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NAC - Win32 Uni Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\kishoj\LOCALS~1\Temp\RSP10.bat" with contents
+[
+@echo off
+nmake -nologo -f "\SYMBIAN\MOBTRACKER\GROUP\NAC.SUP.MAKE"   "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\NAC\NAC_CAPTION.r"
+]
+Creating command line "C:\DOCUME~1\kishoj\LOCALS~1\Temp\RSP10.bat"
+Creating temporary file "C:\DOCUME~1\kishoj\LOCALS~1\Temp\RSP11.bat" with contents
+[
+@echo off
+nmake -nologo -f "\SYMBIAN\MOBTRACKER\GROUP\NAC.SUP.MAKE"   "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\NAC\NAC.r"
+]
+Creating command line "C:\DOCUME~1\kishoj\LOCALS~1\Temp\RSP11.bat"
+Creating temporary file "C:\DOCUME~1\kishoj\LOCALS~1\Temp\RSP12.tmp" with contents
+[
+/nologo /Zp4 /MDd /W4 /Zi /Od /X /I "\SYMBIAN\MOBTRACKER\GROUP" /I "\SYMBIAN\MOBTRACKER\INC" /I "\SYMBIAN\MOBTRACKER\DATA" /I "\Symbian\8.0a\S60_2nd_FP2\EPOC32\INCLUDE" /D "__SYMBIAN32__" /D "__VC32__" /D "__WINS__" /D "__DLL__" /D "_DEBUG" /D "_UNICODE" /FR"\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB/" /Fo"\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB/" /Fd"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\NAC\NAC.PDB" /GF /c 
+"C:\SYMBIAN\MOBTRACKER\GROUP\Nac.uid.cpp"
+"C:\SYMBIAN\MOBTRACKER\SRC\Displayimsi.cpp"
+"C:\SYMBIAN\MOBTRACKER\SRC\Smsexamplemtmsengine.cpp"
+"C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackerapp.cpp"
+"C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackerappui.cpp"
+"C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackercontainer.cpp"
+"C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackerdocument.cpp"
+"C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackerengine.cpp"
+"C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackerinformationandsettings.cpp"
+"C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackersettingslistbox.cpp"
+"C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackersettingsview.cpp"
+"C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackerview.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\kishoj\LOCALS~1\Temp\RSP12.tmp" 
+Building resources from Nac_caption.rss
+ perl -S epocrc_ide6.pl -I "\SYMBIAN\MOBTRACKER\SRC\..\DATA" -I "\SYMBIAN\MOBTRACKER\GROUP" -I "\SYMBIAN\MOBTRACKER\INC" -I "\SYMBIAN\MOBTRACKER\DATA" -I- -I "\SYMBIAN\MOBTRACKER\GROUP" -I "\Symbian\8.0a\S60_2nd_FP2\EPOC32\INCLUDE" -DLANGUAGE_SC -u "\SYMBIAN\MOBTRACKER\SRC\..\DATA\Nac_caption.rss" -o"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\NAC\NAC_CAPTION.rSC" -h"\SYMBIAN\MOBTRACKER\SRC\..\DATA\NAC_CAPTION.rs~" -t"\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB"
+
+ echo this is a dummy output file > "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\NAC\NAC_CAPTION.rSC.dummy"
+ perl -S ecopyfile.pl "\SYMBIAN\MOBTRACKER\SRC\..\DATA\NAC_CAPTION.rs~" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\INCLUDE\NAC_CAPTION.RSG"
+ del "\SYMBIAN\MOBTRACKER\SRC\..\DATA\NAC_CAPTION.rs~"
+Building resources from Nac.rss
+ perl -S epocrc_ide6.pl -I "\SYMBIAN\MOBTRACKER\SRC\..\DATA" -I "\SYMBIAN\MOBTRACKER\GROUP" -I "\SYMBIAN\MOBTRACKER\INC" -I "\SYMBIAN\MOBTRACKER\DATA" -I- -I "\SYMBIAN\MOBTRACKER\GROUP" -I "\Symbian\8.0a\S60_2nd_FP2\EPOC32\INCLUDE" -DLANGUAGE_SC -u "\SYMBIAN\MOBTRACKER\SRC\..\DATA\Nac.rss" -o"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\NAC\NAC.rSC" -h"\SYMBIAN\MOBTRACKER\SRC\..\DATA\NAC.rs~" -t"\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB"
+
+ echo this is a dummy output file > "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\NAC\NAC.rSC.dummy"
+ perl -S ecopyfile.pl "\SYMBIAN\MOBTRACKER\SRC\..\DATA\NAC.rs~" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\INCLUDE\NAC.RSG"
+ del "\SYMBIAN\MOBTRACKER\SRC\..\DATA\NAC.rs~"
+Creating temporary file "C:\DOCUME~1\kishoj\LOCALS~1\Temp\RSP13.bat" with contents
+[
+@echo off
+echo Doing first-stage link by name
+nmake -nologo -f "\SYMBIAN\MOBTRACKER\GROUP\NAC.SUP.MAKE" PRELINKUDEB
+if errorlevel 1 nmake -nologo -f "\SYMBIAN\MOBTRACKER\GROUP\NAC.SUP.MAKE" STOPLINKUDEB
+]
+Creating command line "C:\DOCUME~1\kishoj\LOCALS~1\Temp\RSP13.bat"
+Compiling...
+Nac.uid.cpp
+Displayimsi.cpp
+Smsexamplemtmsengine.cpp
+Zmobiletrackerapp.cpp
+Zmobiletrackerappui.cpp
+Zmobiletrackercontainer.cpp
+C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackercontainer.cpp(92) : warning C4100: 'aType' : unreferenced formal parameter
+C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackercontainer.cpp(161) : warning C4100: 'aType' : unreferenced formal parameter
+C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackercontainer.cpp(161) : warning C4100: 'aKeyEvent' : unreferenced formal parameter
+C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackercontainer.cpp(184) : warning C4100: 'aZColumn' : unreferenced formal parameter
+C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackercontainer.cpp(184) : warning C4100: 'aZRow' : unreferenced formal parameter
+C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackercontainer.cpp(184) : warning C4100: 'aXColumn' : unreferenced formal parameter
+C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackercontainer.cpp(183) : warning C4100: 'aXRow' : unreferenced formal parameter
+C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackercontainer.cpp(183) : warning C4100: 'aHumanWins' : unreferenced formal parameter
+C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackercontainer.cpp(186) : warning C4189: 'document' : local variable is initialized but not referenced
+Zmobiletrackerdocument.cpp
+Zmobiletrackerengine.cpp
+C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackerengine.cpp(37) : warning C4100: 'aHumanPlayer' : unreferenced formal parameter
+C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackerengine.cpp(48) : warning C4100: 'aColumn' : unreferenced formal parameter
+C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackerengine.cpp(48) : warning C4100: 'aRow' : unreferenced formal parameter
+Zmobiletrackerinformationandsettings.cpp
+Zmobiletrackersettingslistbox.cpp
+C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackersettingslistbox.cpp(58) : warning C4100: 'aType' : unreferenced formal parameter
+Zmobiletrackersettingsview.cpp
+Zmobiletrackerview.cpp
+C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackerview.cpp(180) : warning C4102: 'A' : unreferenced label
+C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackerview.cpp(287) : warning C4065: switch statement contains 'default' but no 'case' labels
+C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackerview.cpp(283) : warning C4100: 'aArg2' : unreferenced formal parameter
+C:\SYMBIAN\MOBTRACKER\SRC\Zmobiletrackerview.cpp(283) : warning C4100: 'aArg1' : unreferenced formal parameter
+Generating Code...
+Creating temporary file "C:\DOCUME~1\kishoj\LOCALS~1\Temp\RSP14.tmp" with contents
+[
+"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\EDLL.LIB" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\estor.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\mobinfo.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\plpvariant.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\eikctl.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\etext.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\msgs.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\smcm.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\gsmu.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\bafl.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\commonengine.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\euser.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\apparc.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\cone.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\eikcore.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\eikcoctl.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\avkon.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\eikdlg.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\mtur.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\efsrv.lib" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\NAC.exp" /nologo /entry:"_E32Dll" /subsystem:windows /dll /incremental:yes /pdb:"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\NAC\NAC.pdb" /debug /machine:IX86 /nodefaultlib /include:"?_E32Dll@@YGHPAXI0@Z" /out:"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\NAC\NAC.APP" /implib:"\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB/NAC.lib" /WARN:3 
+\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\Nac.uid.obj
+\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\Displayimsi.obj
+\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\Smsexamplemtmsengine.obj
+\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\Zmobiletrackerapp.obj
+\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\Zmobiletrackerappui.obj
+\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\Zmobiletrackercontainer.obj
+\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\Zmobiletrackerdocument.obj
+\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\Zmobiletrackerengine.obj
+\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\Zmobiletrackerinformationandsettings.obj
+\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\Zmobiletrackersettingslistbox.obj
+\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\Zmobiletrackersettingsview.obj
+\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\Zmobiletrackerview.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\kishoj\LOCALS~1\Temp\RSP14.tmp"
+
+Doing first-stage link by name
+ link.exe @C:\DOCUME~1\kishoj\LOCALS~1\Temp\nma00708.
+   Creating library \Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\NAC.lib and object \Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\NAC.exp
+LINK : warning LNK4005: no objects used from library \Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\PLPVARIANT.LIB
+LINK : warning LNK4005: no objects used from library \Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\EIKCTL.LIB
+LINK : warning LNK4005: no objects used from library \Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\COMMONENGINE.LIB
+LINK : warning LNK4005: no objects used from library \Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\EIKCOCTL.LIB
+LINK : warning LNK4005: no objects used from library \Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\EIKDLG.LIB
+LINK : warning LNK4005: no objects used from library \Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\MTUR.LIB
+LINK : warning LNK4005: no objects used from library \Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\EFSRV.LIB
+EDLL.LIB(UP_DLL.obj) : warning LNK4099: PDB "edll.pdb" was not found with "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\EDLL.LIB" or at "C:\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\edll.pdb"; linking object as if no debug info
+ del "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\NAC.APP"
+ del "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\NAC.exp"
+ dumpbin /exports /out:"\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\NAC.inf" "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\NAC.lib"
+Microsoft (R) COFF Binary File Dumper Version 6.00.8168
+Copyright (C) Microsoft Corp 1992-1998. All rights reserved.
+
+ del "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\NAC.lib"
+ perl -S makedef.pl -Inffile "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\NAC.inf" -1 ?NewApplication@@YAPAVCApaApplication@@XZ "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\NAC.def"
+ del "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\NAC.inf"
+ lib.exe  /nologo /machine:i386 /nodefaultlib /name:"NAC.APP" /def:"\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\NAC.def" /out:"\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\NAC.lib"
+   Creating library \Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\NAC.lib and object \Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\NAC.exp
+ del "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\NAC.lib"
+First-stage link successful
+<h3>Output Window</h3>
+Linking...
+LINK : warning LNK4005: no objects used from library \Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\plpvariant.lib
+LINK : warning LNK4005: no objects used from library \Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\eikctl.lib
+LINK : warning LNK4005: no objects used from library \Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\commonengine.lib
+LINK : warning LNK4005: no objects used from library \Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\eikcoctl.lib
+LINK : warning LNK4005: no objects used from library \Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\eikdlg.lib
+LINK : warning LNK4005: no objects used from library \Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\mtur.lib
+LINK : warning LNK4005: no objects used from library \Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\efsrv.lib
+EDLL.LIB(UP_DLL.obj) : warning LNK4099: PDB "edll.pdb" was not found with "\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\EDLL.LIB" or at "C:\Symbian\8.0a\S60_2nd_FP2\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\NAC\edll.pdb"; linking object as if no debug info
+Creating temporary file "C:\DOCUME~1\kishoj\LOCALS~1\Temp\RSP19.bat" with contents
+[
+@echo off
+nmake -nologo -f "\SYMBIAN\MOBTRACKER\GROUP\NAC.SUP.MAKE" POSTBUILDUDEB
+]
+Creating command line "C:\DOCUME~1\kishoj\LOCALS~1\Temp\RSP19.bat"
+
+ if exist "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\NAC.exp" del "\Symbian\8.0a\S60_2nd_FP2\EPOC32\BUILD\SYMBIAN\MOBTRACKER\GROUP\NAC\WINS\UDEB\NAC.exp"
+
+
+
+<h3>Results</h3>
+NAC.APP - 0 error(s), 33 warning(s)
+</pre>
+</body>
+</html>

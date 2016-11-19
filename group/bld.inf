@@ -1,0 +1,6 @@
+/* Copyright (c) 2003, Nokia. All rights reserved */
+PRJ_PLATFORMS
+WINS WINSCW THUMB ARMI
+
+PRJ_MMPFILES
+nac.mmp

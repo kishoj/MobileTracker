@@ -1,0 +1,21 @@
+;Languages
+&EN
+; Package header
+#{"Mobile Tracker"},(0x10204950),0,1,0,TYPE=SISAPP
+
+;Supports Series 60 2nd Edition Feature Pack 3
+(0x102032BD), 0, 0, 0, {"Series60ProductID"}
+
+; Input files
+"..\..\..\epoc32\release\thumb\urel\nac.app"-"!:\system\apps\nac\nac.app"
+"..\..\..\epoc32\data\z\system\apps\nac\nac.rsc"-"!:\system\apps\nac\nac.rsc"
+"..\..\..\epoc32\data\z\system\apps\nac\nac_caption.rsc"  -"!:\system\apps\nac\nac_caption.rsc"
+"..\..\..\epoc32\data\z\system\apps\nac\nac.aif"-"!:\system\apps\nac\nac.aif"
+
+; Specify Generated files as NULL files. These are created at runtime by the game
+; and will be removed at uninstall. (But will be left on the device if upgrading.)
+""-"C:\nac.ini",FILENULL
+
+; Reuired only for autostartup
+"mobtrac.boot" -"!:\system\programs\ezboot\boot\mobtrac.boot"
+@"ezboot-S60.sis", (0x101FD000)

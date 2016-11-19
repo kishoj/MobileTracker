@@ -1,0 +1,1 @@
+@bldmake bldfiles && makmake nac.mmp vc6
